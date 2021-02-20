@@ -50,6 +50,18 @@ header{
 	flex-direction: column;
 }
 
+@media screen and (min-width: 720px){
+	.container{
+		width: 60%;
+	}
+}
+@media screen and (min-width: 960px){
+	.container{
+		width: 40%;
+	}
+}
+
+
 .brand h3{
 	font-size: 3em;
 	text-transform: uppercase;
